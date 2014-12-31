@@ -1,0 +1,71 @@
+body {
+  background-color: #060405;
+  color: #FDF9F8;
+}
+
+.upcase-large {
+  text-transform: uppercase;
+  color: #FDF9F8;
+  font-size: 1.9rem;
+  line-height: 1.15;
+}
+
+.upcase-medium {
+  text-transform: uppercase;
+  color: #2484D1;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.contact {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.contact a {
+  text-transform: uppercase;
+  color: #757472;
+  font-size: 0.95rem;
+}
+
+.experience h6 {
+  text-transform: uppercase;
+  color: #2484D1;
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+}
+
+.experience h6 > small {
+  text-transform: none;
+  color: #FDF9F8;
+  font-size: 0.85rem;
+}
+
+footer {
+  height: 73px;
+}
+
+@media only screen and (min-width: 40.063em) {
+
+  .upcase-large {
+    font-size: 3.2rem;
+  }
+
+  .upcase-medium {
+    font-size: 2.1rem;
+    line-height: 1.2;
+  }
+
+  .contact a {
+    font-size: 1.15rem;
+  }
+
+  .experience h6 {
+    font-size: 1.15rem;
+  }
+
+  .experience h6 > small {
+    font-size: 1.05rem;
+  }
+
+}
