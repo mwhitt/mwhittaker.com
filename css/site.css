@@ -28,14 +28,14 @@ body {
   font-size: 0.95rem;
 }
 
-.experience h6 {
+.experience h3 {
   text-transform: uppercase;
   color: #2484D1;
   font-size: 0.95rem;
   margin-bottom: 25px;
 }
 
-.experience h6 > small {
+.experience h3 > small {
   text-transform: none;
   color: #FDF9F8;
   font-size: 0.85rem;
@@ -60,11 +60,11 @@ footer {
     font-size: 1.3rem;
   }
 
-  .experience h6 {
+  .experience h3 {
     font-size: 1.3rem;
   }
 
-  .experience h6 > small {
+  .experience h3 > small {
     font-size: 1.2rem;
   }
 
