@@ -6,7 +6,7 @@ body {
 .upcase-large {
   text-transform: uppercase;
   color: #FDF9F8;
-  font-size: 3.1rem;
+  font-size: 2.5rem;
   line-height: 1;
   margin-top: 10px;
 }
@@ -14,13 +14,13 @@ body {
 .upcase-medium {
   text-transform: uppercase;
   color: #2484D1;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   line-height: 1.2;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .contact {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 
@@ -50,11 +50,11 @@ footer {
 @media only screen and (min-width: 40.063em) {
 
   .upcase-large {
-    font-size: 3.7rem;
+    font-size: 3.5rem;
   }
 
   .upcase-medium {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
 
   .contact a {
