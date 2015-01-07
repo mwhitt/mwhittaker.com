@@ -35,6 +35,6 @@ img {
   font-size: 0.85rem;
 }
 
-footer {
-  height: 73px;
+.social-links {
+  display: inherit;
 }
