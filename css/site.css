@@ -24,20 +24,25 @@ body {
   margin-bottom: 0px;
 }
 
-.contact a {
+ul > li > a {
   text-transform: uppercase;
   color: #757472;
   font-size: 0.95rem;
 }
 
-.experience h3 {
+.experience > h3 {
   text-transform: uppercase;
   color: #2484D1;
   font-size: 0.95rem;
   margin-bottom: 25px;
 }
 
-.experience h3 > small {
+h3 > a, h3 > a:hover {
+  color: #2484D1;
+  text-decoration: underline;
+}
+
+.experience > h3 > small {
   text-transform: none;
   color: #FDF9F8;
   font-size: 0.85rem;
@@ -61,15 +66,15 @@ footer {
     font-size: 1.9rem;
   }
 
-  .contact a {
+  ul > li > a {
     font-size: 1.3rem;
   }
 
-  .experience h3 {
+  .experience > h3 {
     font-size: 1.3rem;
   }
 
-  .experience h3 > small {
+  .experience > h3 > small {
     font-size: 1.2rem;
   }
 
